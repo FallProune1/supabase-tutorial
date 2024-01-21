@@ -9,9 +9,9 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen min-w-full flex-col items-center justify-between p-24 bg-gradient-to-b from-slate-950 to-neutral-950">
-      <div className="flex flex-col w-5/6">
-        <div className=" mr-auto w-96 flex p-2 text-blue-100 border border-blue-600 rounded-full text-sm">
+    <main className="flex min-h-screen min-w-full flex-col items-center ">
+      <div className="flex flex-col w-5/6  ">
+        <div className=" mr-auto w-96 flex p-2 text-blue-200 border border-blue-600 rounded-full text-sm mt-10">
           <p className=" text-lg w-25 p-3 bg-blue-600 rounded-full bg-opacity-30 text-blue-200 font-medium">
             Hola 🖖&nbsp;
           </p>
@@ -20,8 +20,8 @@ export default function Home() {
             <strong className="text-blue-500 font-mono">FallProune</strong>
           </div>
         </div>
-        <h1 className=" mt-32 text-7xl font-medium text-blue-100 leading-normal">
-          Bienvenido al portafolio de&nbsp;
+        <h1 className=" mt-20 text-7xl font-medium text-blue-100 leading-normal text-left">
+          Bienvenido al portfolio de&nbsp;
           <strong className="glow font-mono font-extrabold text-transparent bg-clip-text bg-gradient-to-tr from-rose-600 to-rose-500 ">
             FallProune
           </strong>
@@ -60,7 +60,7 @@ export default function Home() {
         <p className="text-2xl text-purple-200 mt-10 w-3/4">
           Unete para descubrir más sobre su{" "}
           <strong className="text-purple-400 font-mono ">
-            asombroso mundo 🔥🌙.
+            asombroso mundo 🌙.
           </strong>
         </p>
       </div>
