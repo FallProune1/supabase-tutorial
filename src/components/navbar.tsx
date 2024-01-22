@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <div className=" text-blue-100 w-full mt bg-slate-950 h-24 flex items-center justify-center">
-      <ol className="flex items-center w-1/2 justify-between ">
+      <ol className="flex items-center min-w-96 justify-between ">
         <li className=" transition-all  hover:text-lg hover:text-white hover:font-medium hover:underline decoration-blue-500">
           <Link href={"/"}>Home</Link>
         </li>
