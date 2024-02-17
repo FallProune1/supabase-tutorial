@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={poppins.className}>
         <Navbar></Navbar>
-        <div className="bg-gradient-to-b from-slate-950 to-neutral-950">
+        <div className="from-black-950 bg-gradient-to-b to-neutral-950">
           {children}
         </div>
       </body>
